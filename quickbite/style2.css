@@ -1,0 +1,102 @@
+/* Add some basic styling */
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu h2 {
+  margin-bottom: 2em;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #da5c2e;
+  border: 4px solid rgb(246, 240, 240);
+  padding: 2em;
+  margin: 3em;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.menu-item img {
+  max-width: 100%;
+  margin: 0 1em;
+}
+
+.menu-item button {
+  background-color: #e9ed26;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.menu-item button:hover {
+  background-color: #22f46b;
+}
+/*Order Section*/
+#ordernow{
+  position: relative;
+}
+
+#ordernow::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0.9;
+background: url('clientbg.jpg') ;
+}
+
+
+#order-box{
+padding: 1px;
+display: flex;
+justify-content: center;
+text-align: center;
+padding-bottom: 300px;
+}
+.order{
+padding: -80px;
+margin: 0px;
+padding-top: 10px;
+padding-bottom: 0px;
+}
+#order-box input,
+#order-box textarea{
+width: 100%;
+padding: 0.5rem;
+margin: 2px;
+border-radius: 9px;
+font-size: 1.1rem;
+}
+#order-box form{
+width: 40%;
+}
+#order-box label{
+font-size: 1.5rem;
+font-family: 'Bree Serif', serif;
+
+}
+
+select{
+  height: 30px;
+  width: 540px;
+}
+input[name="Pay with Paypal"]{
+  width: 0px;
+}
+#paybox form{
+  width: 100%;
+}
